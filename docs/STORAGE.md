@@ -15,7 +15,7 @@ Implementors of this trait can define the basic operations of a key value store,
 See [RocksDB](https://github.com/AleoHQ/snarkOS/blob/staging/storage/src/rocks.rs) for example implementation.
 
 #### Agent
-The `KeyValueStore` guarantees atomicity and strongly consistent/ordered in the underlying storage implementation by using an actor model [Agent](https://github.com/AleoHQ/snarkOS/blob/staging/storage/src/key_value/agent/mod.rs) to execute each read or write operation.
+The `KeyValueStore` guarantees atomicity and strong consistency/ordering in the underlying storage implementation by using an actor model [Agent](https://github.com/AleoHQ/snarkOS/blob/staging/storage/src/key_value/agent/mod.rs) to execute each read or write operation.
 
 ## Dividing Storage and Consensus
 
