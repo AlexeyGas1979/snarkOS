@@ -25,5 +25,4 @@ are subject to the following serialization/deserialization stages
 * `snarkvm_dpc::*::BlockHeader` -> `SerialBlockHeader` -> raw bytes
 * `snarkvm_dpc::*::Record<?>` -> `SerialRecord` -> raw bytes
 
-In practice, until a new serialization format is implementated, there is some conversion back and forth as needed.
-
+In practice, until a new serialization format is implemented, there is some conversion back and forth as needed.
