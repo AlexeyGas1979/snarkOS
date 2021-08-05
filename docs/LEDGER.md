@@ -8,7 +8,7 @@ The [Ledger](https://github.com/AleoHQ/snarkOS/blob/staging/consensus/src/ledger
 
 ### MerkleLedger
 
-The [MerkleLedger](https://github.com/AleoHQ/snarkOS/blob/staging/consensus/src/ledger/merkle.rs) is the currentl sole implementor of `Ledger` and uses `IndexedMerkleTree` and `IndexedDigests` to provide functionality.
+The [MerkleLedger](https://github.com/AleoHQ/snarkOS/blob/staging/consensus/src/ledger/merkle.rs) is the current sole implementor of `Ledger` and uses `IndexedMerkleTree` and `IndexedDigests` to provide functionality.
 
 ### IndexedDigests
 
